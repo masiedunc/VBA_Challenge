@@ -1,2 +1,2 @@
 # stock-analysis
-stock analysis of green energy companied
+stock analysis of green energy company
