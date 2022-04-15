@@ -2,8 +2,6 @@
 ## Purpose
 This project aimed to refactor a Microsoft Excel VBA code to improve the implementation and efficiency of the original VBA code for collecting stock information in both 2017 and 2018.  The purpose of this code is to determine which stocks may be worth investing in and can analyze an entire dataset of stocks. Even though the current focus is on stocks from Green Companies, this newly refactored code will also be able to work for larger datasets in a timely manner.  For this workbook specifically, we created two charts that compare stock information from 12 different companies using the ticker value, the total daily volume, and the yearly return.
 
-### The Data
-stock analysis of green energy company
 ## Results
 Using my original code, I was able to achieve the desired results, yet with a run time of 0.9453125 for stocks from 2017 and a run time of 0.984375 for stocks from 2018. To improve this time, some changes needed to be made. Before refactoring the code, I first copied the original code from my “All Stocks Analysis” macro. I made no changes to the code that set the runtime, created an input box, labeled the chart headers, added a ticker array, activated the worksheet, and to find the number of rows to loop over. Key changes were then made to add a tickerIndex variable and three more arrays for ticker volumes, ticker starting prices, and ticker ending prices were added before looping through all rows and running our conditionals. You can see these changes in the image below.
 
