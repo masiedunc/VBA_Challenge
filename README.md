@@ -9,6 +9,9 @@ Using my original code, I was able to achieve the desired results, yet with a ru
 
 ![Arrays_Added](https://user-images.githubusercontent.com/102122063/163629199-61d8205a-9b83-43f7-98af-59f1b37c44cd.JPG)
 
+We were able to use the tickerIndex variable to access the stock ticker index for all our arrays. Within the script loops, we were able to successfully read and store data from each row for the Ticker, Ticker Volumes, Ticker Starting Prices, and Ticker Ending Prices. Once complete, the code for formatting the cells was included within the same macro to automate the formatting when switching between years. You can view the refactored code for the loops and formatting below. 
+
+![Loops_Formatting](https://user-images.githubusercontent.com/102122063/163630477-941d5c9b-f111-46b3-94a8-0056022a1f4d.JPG)
 
 
 ## Summary
