@@ -14,7 +14,9 @@ We were able to use the tickerIndex variable to access the stock ticker index fo
 ![Loops_Formatting](https://user-images.githubusercontent.com/102122063/163631260-4550543a-d977-4815-9b24-39db989d8876.png)
 
 After refactoring our code, debugged and tested our new macro to ensure it created the same results, yet faster. We found that the run time decreased to 0.2421875 for 2017 and 0.1835938 for 2018, successfully creating a faster and more efficient code. The run time for both years can be viewed in the images below. 
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102122063/163631020-aff0ef3e-0d98-45f1-8394-d622ade48ad7.PNG)
+
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102122063/163631029-560084a1-53f4-4e9d-b894-8a8bd63afa68.PNG)
 
 ## Summary
