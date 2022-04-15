@@ -5,6 +5,11 @@ This project aimed to refactor a Microsoft Excel VBA code to improve the impleme
 ### The Data
 stock analysis of green energy company
 ## Results
+Using my original code, I was able to achieve the desired results, yet with a run time of… To improve this some changes needed to be made. Before refactoring the code, I first copied the original code that set the runtime, created an input box, labeled the chart headers, added a ticker array, and activated the worksheet. I copied the rest of the code, too, yet made key changes that would help improve efficiency. As you can see in the image below, a tickerIndex and three more arrays were added before lopping through rows and running our conditionals. 
+
+![Arrays_Added](https://user-images.githubusercontent.com/102122063/163629199-61d8205a-9b83-43f7-98af-59f1b37c44cd.JPG)
+
+
 
 ## Summary
 ### Pros can Cons of Refactoring Code
