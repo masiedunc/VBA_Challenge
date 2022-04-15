@@ -5,7 +5,7 @@ This project aimed to refactor a Microsoft Excel VBA code to improve the impleme
 ### The Data
 stock analysis of green energy company
 ## Results
-Using my original code, I was able to achieve the desired results, yet with a run time of… To improve this some changes needed to be made. Before refactoring the code, I first copied the original code that set the runtime, created an input box, labeled the chart headers, added a ticker array, and activated the worksheet. I copied the rest of the code, too, yet made key changes that would help improve efficiency. As you can see in the image below, a tickerIndex and three more arrays were added before lopping through rows and running our conditionals. 
+Using my original code, I was able to achieve the desired results, yet with a run time of 0.9453125 for stocks from 2017 and a run time of 0.984375 for stocks from 2018. To improve this time, some changes needed to be made. Before refactoring the code, I first copied the original code from my “All Stocks Analysis” macro. I made no changes to the code that set the runtime, created an input box, labeled the chart headers, added a ticker array, activated the worksheet, and to find the number of rows to loop over. Key changes were then made to add a tickerIndex variable and three more arrays for ticker volumes, ticker starting prices, and ticker ending prices were added before looping through all rows and running our conditionals. You can see these changes in the image below.
 
 ![Arrays_Added](https://user-images.githubusercontent.com/102122063/163629199-61d8205a-9b83-43f7-98af-59f1b37c44cd.JPG)
 
