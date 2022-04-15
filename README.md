@@ -9,11 +9,13 @@ Using my original code, I was able to achieve the desired results, yet with a ru
 
 **Image 1:** Refactored code to create output arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices
 
+
 We were able to use the tickerIndex variable to access the stock ticker index for all our arrays. Within the script loops, we were able to successfully read and store data from each row for the Ticker, Ticker Volumes, Ticker Starting Prices, and Ticker Ending Prices. Once complete, the code for formatting the cells was included within the same macro to automate the formatting when switching between years. You can view the refactored code for the loops and formatting below. 
 
 ![Loops_Formatting](https://user-images.githubusercontent.com/102122063/163631260-4550543a-d977-4815-9b24-39db989d8876.png)
 
 **Image 2:** Refactored code to loop through each row to read and store data as well as the formatting code for the table. 
+
 
 After refactoring our code, debugged and tested our new macro to ensure it created the same results, yet faster. We found that the run time decreased to 0.2421875 for 2017 and 0.1835938 for 2018, successfully creating a faster and more efficient code. The run time for both years can be viewed in the images below. 
 
@@ -24,6 +26,7 @@ After refactoring our code, debugged and tested our new macro to ensure it creat
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102122063/163631029-560084a1-53f4-4e9d-b894-8a8bd63afa68.PNG)
 
 **Image 4:** Run time of refactored code for stocks from 2018. 
+
 
 ## Summary
 
