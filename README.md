@@ -20,6 +20,6 @@ After refactoring our code, debugged and tested our new macro to ensure it creat
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102122063/163631029-560084a1-53f4-4e9d-b894-8a8bd63afa68.PNG)
 
 ## Summary
-### Pros can Cons of Refactoring Code
+### There is a detailed statement on the advantages and disadvantages of refactoring code in general
 
-### The Advantages of Refactoring Stock Analysis
+### There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script 
