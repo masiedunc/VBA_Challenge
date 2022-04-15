@@ -3,19 +3,23 @@
 This project aimed to refactor a Microsoft Excel VBA code to improve the implementation and efficiency of the original VBA code for collecting stock information in both 2017 and 2018.  The purpose of this code is to determine which stocks may be worth investing in and can analyze an entire dataset of stocks. Even though the current focus is on stocks from Green Companies, this newly refactored code will also be able to work for larger datasets in a timely manner.  For this workbook specifically, we created two charts that compare stock information from 12 different companies using the ticker value, the total daily volume, and the yearly return.
 
 ## Results
-Using my original code, I was able to achieve the desired results, yet with a run time of 0.9453125 for stocks from 2017 and a run time of 0.984375 for stocks from 2018. To improve this time, some changes needed to be made. Before refactoring the code, I first copied the original code from my “All Stocks Analysis” macro. I made no changes to the code that set the runtime, created an input box, labeled the chart headers, added a ticker array, activated the worksheet, and to find the number of rows to loop over. Key changes were then made to add a tickerIndex variable and three more arrays for ticker volumes, ticker starting prices, and ticker ending prices were added before looping through all rows and running our conditionals. You can see these changes in the image below.
+Using my original code, I was able to achieve the desired results, yet with a run time of 0.9453125 for stocks from 2017 and a run time of 0.984375 for stocks from 2018. To improve this time, some changes needed to be made. Before refactoring the code, I first copied the original code from my “All Stocks Analysis” macro. I made no changes to the code that set the runtime, created an input box, labeled the chart headers, added a ticker array, activated the worksheet, and to find the number of rows to loop over. Key changes were then made to add a tickerIndex variable and three output arrays for ticker volumes, ticker starting prices, and ticker ending prices were added before looping through all rows and running our conditionals. You can see these changes in the image below.
 
 ![Arrays_Added](https://user-images.githubusercontent.com/102122063/163631247-a3edd404-b66f-4e84-9091-2eead4ece011.png)
+**Image 1:** Refactored code to create output arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices
 
 We were able to use the tickerIndex variable to access the stock ticker index for all our arrays. Within the script loops, we were able to successfully read and store data from each row for the Ticker, Ticker Volumes, Ticker Starting Prices, and Ticker Ending Prices. Once complete, the code for formatting the cells was included within the same macro to automate the formatting when switching between years. You can view the refactored code for the loops and formatting below. 
 
 ![Loops_Formatting](https://user-images.githubusercontent.com/102122063/163631260-4550543a-d977-4815-9b24-39db989d8876.png)
+**Image 2:** Refactored code to loop through each row to read and store data as well as the formatting code for the table. 
 
 After refactoring our code, debugged and tested our new macro to ensure it created the same results, yet faster. We found that the run time decreased to 0.2421875 for 2017 and 0.1835938 for 2018, successfully creating a faster and more efficient code. The run time for both years can be viewed in the images below. 
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102122063/163631020-aff0ef3e-0d98-45f1-8394-d622ade48ad7.PNG)
+**Image 3:** Run time of refactored code for stocks from 2017. 
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102122063/163631029-560084a1-53f4-4e9d-b894-8a8bd63afa68.PNG)
+**Image 4:** Run time of refactored code for stocks from 2018. 
 
 ## Summary
 
