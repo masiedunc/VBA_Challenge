@@ -20,6 +20,8 @@ After refactoring our code, debugged and tested our new macro to ensure it creat
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102122063/163631029-560084a1-53f4-4e9d-b894-8a8bd63afa68.PNG)
 
 ## Summary
-### There is a detailed statement on the advantages and disadvantages of refactoring code in general
+
+After reviewing this project, refactoring code in general has it's advantages. It can help make it cleaner and more organized which can lead to improved software efficiency through reduced run time and use of less storage, it becomes easier to read and debug and can allow for faster programming overall. 
+Yet, while the efficiency and time for the refactored code improve, one disadvantage that comes with refactoring is how much time the task takes to be complete. There may also be cases of working with larger programming code which can pose the risk of getting lost in the code or not understanding where to go next after making changes.
 
 ### There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script 
